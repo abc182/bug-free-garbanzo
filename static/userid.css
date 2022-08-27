@@ -1,0 +1,102 @@
+img{
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    border-radius: 30px;
+    width: 400px;
+    position: relative;
+    opacity: 0.8;
+    /* float: left; */
+    height: 430px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.mid{
+    color: darkgreen;
+    position: absolute;
+    text-align: center;
+    font-size: 55px;
+    width: 250px;
+    top: 135px;
+    left: 200px;
+    font-weight:bold ;
+   
+
+}
+form{
+    /* size: 1000px; */
+    font-weight: bolder;
+    padding-top: 30px;
+    width:300px;
+    margin-left: 70px;
+   
+}
+body{
+    background-color: #093145;
+}
+.row{
+
+    background-color: #000000;
+    padding: 10px;
+    background: linear-gradient(rgb(246, 247, 248),rgb(248, 249, 251));
+    border-radius: 30px;
+    box-sizing: border-box;
+     width:1000px; 
+     height: 500px;
+    position: fixed;
+    /* height: 60%; */
+    display: flex;
+    margin-top: 60px;
+    margin-left:230px ;
+}
+.b{
+    padding: 30px;
+}
+.btn{
+    width: 70%;
+    margin: 10% auto;
+    color: white;
+    font-size: 20px;
+    opacity: .7;
+    background: black; 
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px  2px 4px rgba(108, 96, 96, 0.2);
+    box-shadow: 3px  3px 5px rgba(26, 38, 198, 0.37);
+    border-left: 1px solid rgba(175, 112, 112, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    cursor: pointer;
+}
+.btn:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+.info{
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+input{
+    position: absolute;
+    font-size: 20px;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0);
+    border-top: 1px solid rgba(255, 255, 255, 0);
+}
+
+div{
+    border: 2px;
+    border-color: black;
+}
+.split {
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+

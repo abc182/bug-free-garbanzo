@@ -1,0 +1,93 @@
+nav{
+    color: #FFF;
+    margin-left: 600px;
+    margin-top: 25px;
+    font-size: 50px;
+}
+.container
+{
+    background: rgb(23, 25, 25);
+    display: grid;
+    height: 180vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4% 20% auto 4%;
+    /* margin: 0.3fr; */
+    gap: 10px;
+    padding: 10px;
+    /* grid-template-rows: 0.4fr 2fr 5fr ; */
+    /* grid-template-areas: 
+    "item1 item1 item1 item1" */
+}
+
+.containerImg
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 10% auto;
+    gap : 10px;
+    padding: 10px;
+}
+
+.containerImg > div
+{   
+    background-color: crimson;
+}
+.containerImg > h1
+{
+    background-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-bottom: auto;
+}
+
+#item1
+{
+    background: rgb(23, 25, 25);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+
+.flexContainer1
+{
+    display: flex;
+}
+
+#div10
+{
+    align-items: flex-start;
+    font-style: oblique;
+    font-size:xx-large;
+}
+
+#item2
+{
+    background: rgb(225, 255, 0);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#btn{
+    background: rgb(3, 228, 138);
+    cursor: pointer;
+    font-size: 50px;
+    height: 150px;
+    width: 200px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+#btn:hover{
+    background: white;
+}
+#item3
+{
+    background: rgb(103, 110, 71);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#item4
+{
+    background: rgb(23, 25, 25);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
