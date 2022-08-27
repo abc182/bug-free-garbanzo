@@ -1,0 +1,54 @@
+<html>
+<title>USER-FORM</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='userid.css') }}">
+
+<div class="content">
+    <h1 style="background-color:white;text-align: center">PLEASE CREATE USER-ID AND PASSWORD</h1>
+</div>
+
+<body>
+    <div class="split">
+        <div class="row">
+            <section class="copy">
+
+
+            </section>
+            <div class="img"><img src="/static/small.jpeg" width="340 px" height="340px">
+                <!-- <div class="mid"> Explore Your Knowledge</div> -->
+            </div>
+            <form action="/logged" method="POST"id="form1" onsubmit='myfunc()'>
+                <div class="info">
+                    <label class="b">ADMIN</label> <input type="radio" required id="type" name="type" value="admin"><br><br>
+                    <label class="b">PLAYER</label><input type="radio" id="type" name="type" value="player"> 
+                    <br><br><br>
+
+                    <label class="a"> User-ID:<br><input type="text"  id="name" required   placeholder="Create User-ID"  name="uname"></label><br><br><br>
+                   
+                    <label >Create Password:<br><input   type="text"  id="pass" required  placeholder="Create Password " name="pass"></label><BR><br><br>
+                    
+                    <label >Re-Enter Password :<br><input type="text" id="repass" required placeholder="Re-Enter Password" name="repass"></label><BR><br>
+                   
+                   <button type="submit" class="btn">SUBMIT</button>
+                </div>
+            </form> 
+        </div>
+    </div>
+
+   
+    <script>
+        
+        function myfunc(){
+        {
+           
+            // var name=document.getElementById("name").value;
+            var pass=document.getElementById("pass").value;
+            var repass=document.getElementById("repass").value;
+            if(pass != repass){
+                alert("password didn't match Try again.");     
+                return false;               
+            }
+        }
+    }
+     </script> 
+</body>
+</html>

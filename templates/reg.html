@@ -1,0 +1,27 @@
+<html>
+<title>FORM</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='reg.css') }}">
+
+ <div class="content">
+    <h1 style="background-color:white;text-align: center">PLEASE  ENTER  REGISTRATION  DETAILS</h1>      
+</div> 
+<body>
+   <div  class="row">
+    <div class="img"><img src="static/small.jpeg" width="340 px" height="340px"> 
+    </div>
+        <form  method="POST" action="/reg1">
+            <div class="info">  
+            <label class="a">  NAME :<br> <input type="text" placeholder="ENTER  NAME" required name="name"id="name" ></label><br><br><br>
+            <label class="a">EMAIL   : <br><input type="text"placeholder="Email id" required name="email"id="email" ></label><BR><br><br>
+          
+            <label class="a">BIRTH-DATE : <br><input type="date" placeholder="dd-mm-yyyy" required name="date" id="date"></label><BR><br><br>     
+           
+            <label class="a">PHONE NO. :<br><input type="text" id="phone"  maxlength="10" placeholder="Enter Phone NO." required name="phone" id="phone" ></label><BR>
+
+                <button type="submit" class="btn" > SUBMIT</button>
+            </div>
+        </form>
+
+</div>
+
+</html>

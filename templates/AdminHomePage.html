@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title> 
+ <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='adminHome.css') }}"> 
+</head>
+<body>
+    <div class="container">
+        <div id="item1" class="flexContainer1">
+            <div id="div10">
+                <nav>
+                    CREATE QUIZ AND MANY MORE..
+                    <a href="/insertQue"> <button  id="btn"> Create QUIZ</button></a>
+                </nav>
+            </div>
+        </div>
+        <div id="item2" class = "popGrid">
+            <h3 id="popH1">Popular</h3>
+            <div class="popdiv"></div>
+            <div class="popdiv"></div>
+            <div class="popdiv"></div>
+            <div class="popdiv"></div>
+
+            <!-- <div class="img"><h1 style="margin-left:100px;">GOOGLE </h1><img src="/static/google-interview.png" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">AMAZON</h1><img src="/static/amazon.png" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">MICROSOFT</h1><img src="/static/microsoft.jpg" width="300px" height="300px"></div> -->
+        </div>
+        <div id="item3" class="containerImg">
+            <h1>Explore</h1>
+            <div class="img"><h1 style="margin-left:100px;">BIOLOGY</h1><img src="/static/biology.jpg" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">CHEMISTRY</h1><img src="/static/chemistry.jpg" width="300px" height="300px" "></div>
+            <div class="img"><h1 style="margin-left:100px;">GEOGRAPHY</h1><img src="/static/geography.webp" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">PHYSICS</h1><img src="/static/physics.jpg" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">GOOGLE </h1><img src="/static/google-interview.png" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">AMAZON</h1><img src="/static/amazon.png" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">MICROSOFT</h1><img src="/static/microsoft.jpg" width="300px" height="300px"></div>
+            <div class="img"><h1 style="margin-left:100px;">INFOSIS</h1><img src="/static/infosis.jpg" width="300px" height="300px"></div>
+            
+        </div>
+        <div id="item4">Item4</div>
+    </div>
+    
+</body>
+</html>
